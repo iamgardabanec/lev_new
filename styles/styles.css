@@ -1,0 +1,20 @@
+@import "../styles/header.css";
+@import "../styles/projects.css";
+@import "../styles/competencies.css";
+@import "../styles/services.css";
+@import "../styles/contact.css";
+@import "../styles/footer.css";
+
+body{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1400px;
+    padding: 0px 125px;
+    margin: 0 auto;
+}

@@ -1,0 +1,21 @@
+.footer{
+    height: 289px;
+    background-color: #FFFFFF;
+    margin-top: 150px;
+    border-radius: 30px;
+    padding-top: 76px;
+}
+
+.portfolio__title{
+    font-size: 22px;
+    line-height: 30.05px;
+    letter-spacing: -0.03em;
+    margin-bottom: 66px;
+}
+
+.portfolio__text{
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    opacity: 50%;
+}
