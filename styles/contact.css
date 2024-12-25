@@ -2,6 +2,7 @@
     background-color: rgba(25, 28, 25, 1);
     border-radius: 30px;
     padding-left: 125px;
+    margin-bottom: 10px;
 }
 
 .contacts__img{
@@ -47,7 +48,7 @@
     font-size: 22px;
     line-height: 28.6px;
     letter-spacing: -0.03em;
-    margin-bottom: 60px;
+    margin-bottom: 35px;
 }
 
 .contacts__button:hover {

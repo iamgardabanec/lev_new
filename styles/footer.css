@@ -5,6 +5,37 @@
     padding-top: 76px;
 }
 
+.portfolio{
+    display: flex;
+}
+
+.portfolio__mail{
+    font-size: 22px;
+    line-height: 30.05px;
+    letter-spacing: -0.03em;
+    text-decoration : none;
+    margin-left: 366px;
+    color: black;
+}
+
+.portfolio__telega{
+    color: black;
+    font-size: 22px;
+    line-height: 30.05px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    margin-left: 24px;
+}
+
+.portfolio__insta {
+    color: black;
+    font-size: 22px;
+    line-height: 30.05px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    margin-left: 24px;
+}
+
 .portfolio__title{
     font-size: 22px;
     line-height: 30.05px;
