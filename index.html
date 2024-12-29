@@ -28,6 +28,7 @@
                             <li><a class="header__menu-nav" href="#contact">контакты</a></li>
                         </ul>
                     </nav>
+                    <div class="js-burger-btn burger-btn"></div>
                 </div>
 
                 <h1 class="header__title">
@@ -42,6 +43,12 @@
             </div>
         </div>
     </header>
+
+    <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+
+        </div>
+    </div>
 
     <main>
         <section class="projects">
@@ -71,7 +78,7 @@
                     <li class="project">
                         <a class="project__link" href="https://redvel.tilda.ws/">
                             <img class="project__img" src="./resourses/interfeys.png">
-                            <h3 class="project__link-title">заказ путешествий</h3>
+                            <h3 class="project__link-title">заказ студии</h3>
                             <div class="project__box">
                                 <p class="project__title">Redvel</p>
                                 <p class="project__text">landing page</p>
@@ -88,7 +95,7 @@
                 <h2 class="competencies__my">Мои компетенции</h2>
                 <ul class="competencies__ul">
                     <li class="competencies__ul-li">
-                        <img src="./resourses/html.png">
+                        <img class="competencies__ul-img" src="./resourses/html.png">
                         <h3 class="competencies__column-title">HTML и CSS</h3>
                         <p class="competencies__column-text">это основа фронтенд разработки. Умение создавать и
                             правильно структурировать HTML-документы, а также применять стили к этим документам на
@@ -97,7 +104,7 @@
 
                     </li>
                     <li class="competencies__ul-li">
-                        <img src="./resourses/js.png">
+                        <img class="competencies__ul-img" src="./resourses/js.png">
                         <h3 class="competencies__column-title">JavaScript</h3>
                         <p class="competencies__column-text">это язык программирования, который используется для
                             создания динамического и интерактивного пользовательского интерфейса. Хороший фронтенд
@@ -106,7 +113,7 @@
                         </p>
                     </li>
                     <li class="competencies__ul-li">
-                        <img src="./resourses/phone.png">
+                        <img class="competencies__ul-img" src="./resourses/phone.png">
                         <h3 class="competencies__column-title competencies__column-title-three">Работа с
                             библиотеками и фреймворками</h3>
                         <p class="competencies__column-text competencies__column-text-three">фронтенд разработчики
@@ -116,7 +123,7 @@
                         </p>
                     </li>
                     <li class="competencies__ul-li">
-                        <img src="./resourses/phone.png">
+                        <img class="competencies__ul-img" src="./resourses/phone.png">
                         <h3 class="competencies__column-title">Разработка для
                             мобильных устройств и адаптивная верстка</h3>
                         <p class="competencies__column-text competencies__column-text-black">фронтенд разработчики
@@ -134,7 +141,7 @@
         <section class="services" id="services">
             <div class="container">
                 <h2 class="services__title">Помогаю реализовать широкий спектр задач</h2>
-                <ul>
+                <ul class="services__ul">
                     <li>
                         <div class="services__box">
                             <img class="services__img" src="./resourses/Rectangle 15.png">
@@ -180,15 +187,13 @@
         <section class="contact" id="contact">
             <div class="container">
                 <div class="contacts">
-                    <img class="contacts__img" src="./resourses/Frame 25.png" alt="чел">
+                    <!-- <img class="contacts__img" src="./resourses/Frame 25.png" alt="чел"> -->
                     <h3 class="contacts__title">Для связи со мной заполните простую форму</h3>
                     <form class="contacts__form" action="#" method="post">
-                        <div><input class="contacts__input" placeholder="Имя Фамилия" type="text" name="username"></div>
-                        <div><input class="contacts__input" placeholder="Почта" type="text" name="mail"></div>
-                        <div><input class="contacts__input" placeholder="Номер телефона" type="tel" name="username">
-                        </div>
-                        <button class="contacts__button" type="submit" style="cursor: pointer;">Отправить</button>
+                        <input class="contacts__input" placeholder="Имя Фамилия" type="text" name="username">
+                        <input class="contacts__input" placeholder="Почта" type="text" name="mail">
                     </form>
+                        <button class="contacts__button" type="submit" style="cursor: pointer;">Отправить</button>
                 </div>
             </div>
         </section>
@@ -198,13 +203,20 @@
         <div class="container">
             <div class="portfolio">
                 <h2 class="portfolio__title">Портфолио фротнтенд-разработчика Гейдара Гасанова</h2>
-                <p><a class="portfolio__mail" href="mailto:geydargasanov@mail.ru">mail</a></p>
-                <p><a class="portfolio__telega" href="https://web.telegram.org/a/#611301170">telegram</a></p>
-                <p><a class="portfolio__insta" href="https://www.instagram.com/iamgardabanec/profilecard/?igsh=MTR2MWNtZXYxbHlxYw==">instagram</a></p>
+               <div class="portfolio__soc">
+                    <a class="portfolio__sco-set" href="mailto:geydargasanov@mail.ru">mail</a>
+                    <a class="portfolio__sco-set" href="https://web.telegram.org/a/#611301170">telegram</a>
+                    <a class="portfolio__sco-set"
+                    href="https://www.instagram.com/iamgardabanec/profilecard/?igsh=MTR2MWNtZXYxbHlxYw==">instagram</a>
             </div>
-            <p class="portfolio__text">Все права защищены. 2024</p>
+            </div>
+            <div class="portfolio__prava">
+                <p class="portfolio__prava-text">Все права защищены. 2024</p>
+                <p class="portfolio__prava-text">политика обработки данных</p>
+            </div>
         </div>
     </footer>
+    <script src="./styles/burger.js"></script>
 </body>
 
 </html>

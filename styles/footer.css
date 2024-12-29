@@ -1,39 +1,26 @@
 .footer{
-    height: 289px;
+    width: 100%;
     background-color: #FFFFFF;
     border-radius: 30px;
-    padding-top: 76px;
+    padding: 76px 25px 29px 25px;
 }
 
 .portfolio{
     display: flex;
+    justify-content: space-between;
 }
 
-.portfolio__mail{
+.portfolio__soc{
+    display: flex;
+    gap: 24px;
+}
+
+.portfolio__sco-set{
     font-size: 22px;
     line-height: 30.05px;
     letter-spacing: -0.03em;
     text-decoration : none;
-    margin-left: 366px;
     color: black;
-}
-
-.portfolio__telega{
-    color: black;
-    font-size: 22px;
-    line-height: 30.05px;
-    letter-spacing: -0.03em;
-    text-decoration: none;
-    margin-left: 24px;
-}
-
-.portfolio__insta {
-    color: black;
-    font-size: 22px;
-    line-height: 30.05px;
-    letter-spacing: -0.03em;
-    text-decoration: none;
-    margin-left: 24px;
 }
 
 .portfolio__title{
@@ -43,9 +30,36 @@
     margin-bottom: 66px;
 }
 
-.portfolio__text{
+.portfolio__prava{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__prava-text{
     font-size: 20px;
     line-height: 27.32px;
     letter-spacing: -0.03em;
     opacity: 50%;
+}
+
+@media (max-width: 961px){
+    .footer {
+            padding-top: 51px;
+        }
+
+    .portfolio__title{
+            font-size: 16px;
+            line-height: 21.86px;
+            letter-spacing: -0.03em;
+    }
+
+    .portfolio__sco-set {
+        font-size: 16px;
+        line-height: 21.86px;
+    }
+
+        .portfolio__prava-text {
+            font-size: 14px;
+            line-height: 19.12px;
+        }
 }

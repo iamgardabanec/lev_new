@@ -11,12 +11,7 @@
     line-height: 71.5px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
-
     margin-bottom: 40px;
-}
-
-.project{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .project__link{
@@ -91,4 +86,46 @@
     letter-spacing: -0.03em;
     padding: 56px 85px 58px 86px;
     color: #000000;
+}
+
+@media (max-width:961px) {
+
+    .project__link {
+        height: 445px;
+    }
+
+    .projects__title{
+        font-size: 45px;
+        line-height: 58.5px;
+        letter-spacing: -0.03em;
+        margin-bottom: 53px;
+    }
+
+    .project__title{
+        font-size: 28px;
+        line-height: 36.4px;
+        letter-spacing: -0.03em;
+    }
+
+    .project__text{
+        font-size: 24px;
+        line-height: 31.2px;
+        letter-spacing: -0.03em;
+    }
+
+    .project__link-title{
+        font-size: 16px;
+        line-height: 21.86px;
+        letter-spacing: -0.03em;
+    }
+
+    .project__btn{
+        width: 460px;
+        height: 124px;
+        font-size: 24.26px;
+        line-height: 31.54px;
+        letter-spacing: -0.03em;
+        padding: 46px 68px;
+        margin-top: 64px;
+    }
 }

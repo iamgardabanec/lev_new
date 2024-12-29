@@ -5,6 +5,10 @@
 @import "../styles/contact.css";
 @import "../styles/footer.css";
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
@@ -17,4 +21,11 @@ body{
     max-width: 1400px;
     padding: 0px 15px;
     margin: 0 auto;
+}
+
+@media (max-width: 961px) {
+    .container{
+        width: 100%;
+        max-width: 100%;
+    }
 }

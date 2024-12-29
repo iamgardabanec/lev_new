@@ -2,7 +2,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
-    padding: 150px 0px;
 }
 
 .competencies__my{
@@ -47,4 +46,32 @@
     letter-spacing: -0.03em;
     text-align: left;
     color: #FFFFFF;
+}
+
+@media (max-width:961px) {
+    .competencies__my{
+        font-size: 45px;
+        line-height: 58.5px;
+        letter-spacing: -0.03em;
+        margin-bottom: 60px;
+    }
+
+    .competencies__ul-img{
+        width: 36px;
+        height: 36px;
+    }
+
+    .competencies__column-title{
+        font-size: 28px;
+        line-height: 36.4px;
+        letter-spacing: -0.03em;
+        margin-top: 10px;
+        margin-bottom: 13px;
+    }
+
+    .competencies__column-text{
+        font-size: 18px;
+        line-height: 23.4px;
+        letter-spacing: -0.03em;
+    }
 }

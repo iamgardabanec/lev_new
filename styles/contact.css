@@ -1,15 +1,19 @@
 .contacts{
     background-color: rgba(25, 28, 25, 1);
     border-radius: 30px;
-    padding-left: 125px;
+    padding-left: 40px;
     margin-bottom: 10px;
+    background-image: url('../resourses/Frame\ 25.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 
-.contacts__img{
-    object-fit: contain;
+/* .contacts__img{
+    object-fit: cover;
     float: right;
     border-radius: 0px 0px 30px 0px;
-}
+} */
 
 .contacts__title{
     color: #FFFFFF;
@@ -20,14 +24,8 @@
     padding-top: 100px;
 }
 
-.contacts__form{
-    margin-top: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 26px;
-}
-
 .contacts__input{
+    color: #FFFFFF;
     background-color: #3B3D3B;
     border-radius: 100px;
     width: 467px;
@@ -36,7 +34,14 @@
     line-height: 28.6px;
     letter-spacing: -0.03em;
     padding-left: 40px;
-    color: #FFFFFF;
+}
+
+.contacts__form {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 26px;
 }
 
 .contacts__button{
@@ -57,4 +62,28 @@
 
 .contacts__button:active {
     background-color: #f05347;
+}
+
+@media (max-width: 961px){
+    .contacts{
+        padding-left: 20px;
+    }
+
+  .contacts__title{
+        max-width: 373px;
+        font-size: 43px;
+        line-height: 40.5px;
+  }
+
+  .contacts__input {
+        font-size: 16px;
+        line-height: 20.8px;
+  }
+
+  .contacts__button{
+        width: 304px;
+        height: 47px;
+        font-size: 16px;
+        line-height: 20.8px;
+  }
 }
