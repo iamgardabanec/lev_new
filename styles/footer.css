@@ -15,7 +15,7 @@
     gap: 24px;
 }
 
-.portfolio__sco-set{
+.portfolio__soc-set{
     font-size: 22px;
     line-height: 30.05px;
     letter-spacing: -0.03em;
@@ -53,7 +53,7 @@
             letter-spacing: -0.03em;
     }
 
-    .portfolio__sco-set {
+    .portfolio__soc-set {
         font-size: 16px;
         line-height: 21.86px;
     }
@@ -62,4 +62,25 @@
             font-size: 14px;
             line-height: 19.12px;
         }
+}
+
+@media (max-width: 617px){
+    .portfolio{
+        flex-direction: column
+    }
+
+    .portfolio__title{
+        max-width: 242px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio__soc-set{
+        margin-bottom: 40px;
+    }
+
+    .portfolio__prava{
+        flex-direction: column;
+        gap: 12px;
+    }
+
 }

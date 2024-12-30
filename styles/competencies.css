@@ -75,3 +75,13 @@
         letter-spacing: -0.03em;
     }
 }
+
+@media (max-width:600px){
+    .competencies__ul {
+        flex-direction: column;
+    }
+
+    .competencies__ul-li{
+        width: 100%;
+    }
+}

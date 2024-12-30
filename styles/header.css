@@ -133,3 +133,28 @@
         letter-spacing: -0.03em;
     }
 }
+
+@media (max-width: 600px){
+    .header__gasanov-article {
+        width: 130px;
+            padding: 7px 0px 0px 0px;
+    }
+
+    .header__gasanov {
+        font-size: 33px;
+    }
+
+    .header__title {
+        font-size: 40px;
+        line-height: 47px;
+        width: 100%;
+        margin-top: 340px;
+    }
+
+    .header__text {
+        max-width: 310px;
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 19.5px;
+    }
+}
